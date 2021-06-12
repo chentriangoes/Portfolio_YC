@@ -4,45 +4,50 @@
 }
 
 body {
-    background-color: #d9dcd6;
-} /* change */
+    background-color: #d9dcd6; /* change */
+} 
 
 a {
-    color: #ffffff;
-} /* change */
+    color: #ffffff; /* change */
+} 
 
 p {
-    font-size: 16px;
-} /* change */
+    font-size: 16px; /* change */
+} 
 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: #4dbd7c;
+    color: #ffffff; /* change */
 }
 
 header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 50px;
+    background-color: rgb(2, 2, 2);
+    padding: 10px 30px 10px 60px;
+    position: relative;
+    right: 19px;
 }
 
 header nav {
-    padding-top: 15px;
+    padding-top: 30px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    font-size: 20px;
+    font-size: 28px;
 }
 
 header nav li {
     display: inline-block;
-    margin-left: 25px;
-} /* make it to be displyed in a column */
+    margin-left: 10px;
+    
+} /* make it to be displyed in a column when in mobile mode
+     find if the underline could be lengther than text */
 
-.subimg {
-    height: 800px;
-    margin-bottom: 25px;
+.myphoto {
+    height: 250px;
     background-size: cover;
     background-position: center;
 }
