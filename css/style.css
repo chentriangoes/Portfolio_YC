@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+} /* change */
+
+a {
+    color: #ffffff;
+} /* change */
+
+p {
+    font-size: 16px;
+} /* change */
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 20px;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 25px;
+} /* make it to be displyed in a column */
+
+.subimg {
+    height: 800px;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
