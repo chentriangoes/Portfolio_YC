@@ -8,6 +8,19 @@ body {
     background-color: #d9dcd6; /* change */
 } 
 
+main {
+    display: inline-block;
+    flex: wrap;
+    margin-top: 60px;
+    color: #ffffff;
+}
+
+div,
+article,
+footer {
+    display: flex;
+}
+
 a {
     color: #050505; /* change */
 } 
@@ -33,11 +46,14 @@ h2 {
 }
 
 h3 {
-    background-color: brown;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
     font-size: 36px;
-    height: 42px;
-    padding: 0px 10px 10px 10px;
+    height: 60px;
+    padding: 0px 10px 0px 10px;
 }
+
+/*header*/
 
 header {
     padding: 20px;
@@ -71,35 +87,126 @@ header nav li {
      find if the underline could be lengther than text */
 
 .myavatar {
-    background-image: url('');
+    background-image: url('../images/avatar.jpg');
     width: 100%;
     height: 250px;
-    border-style: dashed;
+    border-style: dashed; /* to be removed*/
     background-size: cover;
     background-position: center;
 }    
 
 .myavatar h3 {
     position: relative;
-    left: 80%;
-    top: 72%;
-}
-
-/* main */
-
-main {
-    display: inline-block;
-    flex: wrap;
-    margin-top: 60px;
-    color: #ffffff;
-}
-
-section,
-footer {
+    left: 75%;
+    top: 69%;
     display: flex;
+    align-items: center;
 }
 
-#longer {
-    margin-right: 25px;
-    max-height: 200px;
+/* main 
+display and wrap has to be adjusted */
+
+
+.apps {
+       /*border-style: dashed;*/ 
+    }
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.apps h2 {
+    height: 650px;
+    padding-left: 18.5%;
 }
+
+.blog {
+    width: 960px;
+    height: 280px;
+    margin-left: 30px;
+    border-style: solid;
+    border-color:rgb(255, 0, 0);
+    border-width: 7px;
+}
+
+.blog h3 {
+    height: 80px;
+    width: 12%;
+    text-align: left;
+    position: relative;
+    top: 54%;
+    display: block;
+    line-height: 30px;
+    padding: 12px;
+}
+
+.blog span {
+    font-weight:lighter;
+    font-size: 20px;
+}
+
+.research,
+.communities,
+.cultures,
+.health {
+    width: 465px;
+    height: 140px;
+    margin: 0px 0px 0px 30px;
+    border-style: solid;
+    border-color:rgb(255, 0, 0);
+    border-width: 7px;
+}
+
+.research h3 {
+    height: 80px;
+    width: 48%;
+    text-align: left;
+    position: relative;
+    top: 25%;
+    display: block;
+    line-height: 30px;
+    padding: 12px;
+}
+
+.communities h3 {
+    height: 80px;
+    width: 65%;
+    text-align: left;
+    position: relative;
+    top: 25%;
+    display: block;
+    line-height: 30px;
+    padding: 12px;
+}
+
+.cultures h3 {
+    height: 80px;
+    width: 45%;
+    text-align: left;
+    position: relative;
+    top: 25%;
+    display: block;
+    line-height: 30px;
+    padding: 12px;
+}
+
+.health h3 {
+    height: 80px;
+    width: 38%;
+    text-align: left;
+    position: relative;
+    top: 25%;
+    display: block;
+    line-height: 30px;
+    padding: 12px;
+}
+
+.research span,
+.communities span,
+.cultures span,
+.health span {
+    font-weight:lighter;
+    font-size: 20px;
+}
+
