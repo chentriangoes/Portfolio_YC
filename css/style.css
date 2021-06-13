@@ -9,17 +9,39 @@ body {
 } 
 
 a {
-    color: #ffffff; /* change */
+    color: #050505; /* change */
 } 
 
 p {
-    font-size: 16px; /* change */
-} 
+    margin-bottom: 20px;
+    color:rgb(2, 2, 2);
+    font-size: 30px;
+    text-align: left;
+    padding-left: 12px;
+}
+
+h2 {
+    width: 420px;
+    height: 180px;
+    margin-bottom: 20px;
+    color:rgb(2, 2, 2);
+    font-size: 48px;
+    text-align: right;
+    border-right: 5px solid red;
+    border-width: 6px;
+    padding-right: 12px;
+}
+
+h3 {
+    background-color: brown;
+    font-size: 36px;
+    height: 42px;
+    padding: 0px 10px 10px 10px;
+}
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
-    background-color: #4dbd7c;
+    background-color: #676869;
     color: #ffffff; /* change */
 }
 
@@ -43,16 +65,24 @@ header nav {
 header nav li {
     display: inline-block;
     margin-left: 10px;
-    
-} /* make it to be displyed in a column when in mobile mode
+} 
+
+/* make it to be displyed in a column when in mobile mode
      find if the underline could be lengther than text */
 
-.myphoto { /* make it shrinked proportionally*/ 
+.myavatar {
+    background-image: url('');
+    width: 100%;
     height: 250px;
+    border-style: dashed;
     background-size: cover;
     background-position: center;
-    background-color: black;
-    opacity: 50%;
+}    
+
+.myavatar h3 {
+    position: relative;
+    left: 80%;
+    top: 72%;
 }
 
 /* main */
@@ -69,28 +99,7 @@ footer {
     display: flex;
 }
 
-h2 {
-    width: 420px;
-    height: 180px;
-    margin-bottom: 20px;
-    color:rgb(2, 2, 2);
-    font-size: 48px;
-    text-align: right;
-    border-right: 5px solid red;
-    border-width: 6px;
-    padding-right: 12px;
-}
-
-p {
-    margin-bottom: 20px;
-    color:rgb(2, 2, 2);
-    font-size: 30px;
-    text-align: left;
-    padding-left: 12px;
-
-}
-
-.service img {
+#longer {
     margin-right: 25px;
     max-height: 200px;
 }
