@@ -38,6 +38,7 @@ h3 {
     padding: 0px 10px 0px 10px;
 }
 
+
 /*header*/
 
 a {
@@ -80,7 +81,6 @@ header nav li {
 
 .myavatar {
     margin-top: 20px;
-    background-image: url('../images/avatar.jpg');
     width: 100vw;
     height: 250px;
     border-style: dashed; /* to be removed*/
@@ -150,7 +150,7 @@ p {
 
 
 .blog {
-    background-image: url('../images/Portfolito_top.jpg');
+    opacity: 50%;
     background-size: cover;
     background-position: center;
     width: 1000px;
@@ -212,23 +212,6 @@ p {
     background-position: center;
 }
 
-.research {
-    background-image: url('../images/Portfolito_middle_left.jpg');
-
-}
-
-.cultures {
-    background-image: url('../images/Portfolito_middle_right.jpg');
-}
-
-.communities {
-    background-image: url('../images/Portfolito_btm_left.jpg');
-}
-
-.health {
-    background-image: url('../images/Portfolito_btm_right.jpg');
-}
-
 .cultures,
 .health {
     float: right;
@@ -237,6 +220,21 @@ p {
 .research,
 .cultures {
     margin-bottom: 20px;
+}
+
+.research,
+.cultures,
+.communities,
+.health {
+    opacity: 50%;
+}
+
+.blog:hover,
+.research:hover,
+.cultures:hover,
+.communities:hover,
+.health:hover {
+    opacity: 1;
 }
 
 .research h3 {
