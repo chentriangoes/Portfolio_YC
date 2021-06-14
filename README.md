@@ -17,7 +17,7 @@ This project is to create Yi-Tsun's *Portfolio Web Page* providing information a
 
 ## 📷 Screenshot 📷 
 
-<img src="images/Portfolio_YC.png" alt="A screenshot of the Yi-Tsun's Portfolio Responsive Page Shocasing Web Applications." />
+<img src="images/Portfolio_YC.jpg" alt="A screenshot of the Yi-Tsun's Portfolio Responsive Page Shocasing Web Applications." />
 
 ## 🔗 Link 🔗
 
