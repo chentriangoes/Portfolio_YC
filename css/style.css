@@ -45,8 +45,11 @@ a {
 } 
 
 header {
-    padding: 20px;
+    padding-top: 50px;
     background-color: #676869;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
     color: #ffffff; /* change */
     border-style: dashed; /* to be removed*/
 }
@@ -57,14 +60,14 @@ header h1 {
     background-color: rgb(2, 2, 2);
     padding: 10px 30px 10px 60px;
     position: relative;
-    right: 19px;
+    right: 30%;
 }
 
 header nav {
     padding-top: 30px;
-    margin-right: 20px;
-    float: right;
     font-size: 28px;
+    position: relative;
+    right: 8%;
 }
 
 header nav li {
@@ -76,8 +79,9 @@ header nav li {
      find if the underline could be lengther than text */
 
 .myavatar {
+    margin-top: 20px;
     background-image: url('../images/avatar.jpg');
-    width: 100%;
+    width: 100vw;
     height: 250px;
     border-style: dashed; /* to be removed*/
     background-size: cover;
@@ -146,6 +150,9 @@ p {
 
 
 .blog {
+    background-image: url('../images/Portfolito_top.jpg');
+    background-size: cover;
+    background-position: center;
     width: 1000px;
     height: 280px;
     border-style: solid;
@@ -155,7 +162,6 @@ p {
 }
 
 .blog h3 {
-
     height: 80px;
     width: 12%;
     text-align: left;
@@ -182,7 +188,7 @@ p {
 
 .branch div {
     border-style: dashed;/* to be removed?*/
-    width: 400px;
+    width: 490px;
     height: 356px;
     border-color: purple;
 }
@@ -194,21 +200,37 @@ p {
 }
 
 .research,
-.communities {
-    width: 400px;
+.communities,
+.cultures,
+.health {
+    width: 480px;
     height: 160px;
     border-style: solid;
     border-color:rgb(255, 0, 0);
     border-width: 7px;
+    background-size: cover;
+    background-position: center;
+}
+
+.research {
+    background-image: url('../images/Portfolito_middle_left.jpg');
+
+}
+
+.cultures {
+    background-image: url('../images/Portfolito_middle_right.jpg');
+}
+
+.communities {
+    background-image: url('../images/Portfolito_btm_left.jpg');
+}
+
+.health {
+    background-image: url('../images/Portfolito_btm_right.jpg');
 }
 
 .cultures,
 .health {
-    width: 400px;
-    height: 160px;
-    border-style: solid;
-    border-color:rgb(255, 0, 0);
-    border-width: 7px;
     float: right;
 }
 
