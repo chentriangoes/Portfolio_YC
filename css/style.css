@@ -5,14 +5,12 @@
 }
 
 body {
-    background-color: #d9dcd6; /* change */
-    border-style: dotted; /* to be removed*/
-    border-color: purple; /* to be removed*/
+    background-color: #d9dcd6;
 } 
 
 main {
-    display: inline-block;
-    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 60px;
     color: #ffffff;
 }
@@ -26,8 +24,6 @@ h2 {
     border-right: 5px solid red;
     border-width: 6px;
     padding-right: 12px;
-    float: left; /*can be removed*/
-    border-style: dashed; /* to be removed*/
 }
 
 h3 {
@@ -42,51 +38,45 @@ h3 {
 /*header*/
 
 a {
-    color: #050505; /* change */
+    color: #050505;
 } 
 
 header {
     padding-top: 50px;
     background-color: #676869;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    color: #ffffff; /* change */
-    border-style: dashed; /* to be removed*/
+    color: #ffffff;
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 50px;
+h1 {
+    font-size: 38px;
     background-color: rgb(2, 2, 2);
     padding: 10px 30px 10px 60px;
+    width: 30%;
     position: relative;
-    right: 30%;
+    top: 28px;
 }
 
-header nav {
-    padding-top: 30px;
+nav {
     font-size: 28px;
     position: relative;
     right: 8%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
-header nav li {
+nav li {
     display: inline-block;
     margin-left: 10px;
 } 
-
-/* make it to be displyed in a column when in mobile mode
-     find if the underline could be lengther than text */
 
 .myavatar {
     margin-top: 20px;
     width: 100vw;
     height: 250px;
-    border-style: dashed; /* to be removed*/
     background-size: cover;
     background-position: center;
-    display: flex; /*add something to flex proportionally*/
+    display: flex;
 }    
 
 .myavatar h3 {
@@ -97,15 +87,13 @@ header nav li {
     align-items: center;
 }
 
-/* main 
-display and wrap has to be adjusted */
+
+/* main */
 
 article {
     display: flex;
-    border-style: dashed; /* to be removed*/
     margin-bottom: 12px;
     width:100vw;
-    /* width: ; how to get this same as header and footer*/
 }
 
 p {
@@ -114,51 +102,48 @@ p {
     text-align: left;
     padding-left: 12px;
     margin-left: 5px;
-    float: right; /* to be removed*/
-    border-style: dashed; /* to be removed*/
     width: 1000px;
 }
 
-.presentation {
-   border-style: dashed;
-   height: 665px;
-   margin-bottom: 12px;
-   width: 100vw;
-   display:flex; /* to be removed?*/
-   flex-wrap: wrap; /* to be removed?*/
+.work {
+    width: 100vw;
+    height: 680px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.presentation h2 {
-    width: 25%; /* to be adjusted*/
+.work h2 {
     height: 660px;
-    float: left;
 }
-
 
 .apps {
-       overflow: hidden; /* to be adjusted*/
-       border-style:dashed;
-       border-color: lawngreen; /* to be removed*/
-       height: 660px;
-       margin-left: 5px;
-      /* display:flex;
-       /*flex-direction: column ;*/
-       /*flex-wrap: wrap; /* to be removed?*/
-       /*justify-content: flex-start; /* to be removed?*/
-       
-    }
+    height:100%;
+    flex-grow: 100;
+}
 
+.topfigs {
+    height:25%;
+    flex-grow: 100;
+    display: flex;
+}
+
+.btmfigs {
+    height:25%;
+    flex-grow: 100;
+    display: flex;
+}
 
 .blog {
     opacity: 50%;
     background-size: cover;
     background-position: center;
-    width: 1000px;
+    width: 1044px;
     height: 280px;
     border-style: solid;
     border-color:rgb(255, 0, 0);
     border-width: 7px;
     margin-bottom: 24px;
+    margin-left: 5px;
 }
 
 .blog h3 {
@@ -177,56 +162,20 @@ p {
     font-size: 20px;
 }
 
-.branch {
-    border-style: dashed;/* to be removed?*/
-    width: 1000px;
-    height: 356px;
-    display: flex;
-    flex-wrap: wrap;/* to be removed?*/
-    /*justify-content: center;*/
-}
-
-.branch div {
-    border-style: dashed;/* to be removed?*/
-    width: 490px;
-    height: 356px;
-    border-color: purple;
-}
-
-.right {
-    margin-left: auto;
-    display: inline-block;
-    justify-content: flex-end;
-}
-
 .research,
 .communities,
 .cultures,
 .health {
-    width: 480px;
+    width: 520px;
     height: 160px;
     border-style: solid;
     border-color:rgb(255, 0, 0);
     border-width: 7px;
     background-size: cover;
     background-position: center;
-}
-
-.cultures,
-.health {
-    float: right;
-}
-
-.research,
-.cultures {
-    margin-bottom: 20px;
-}
-
-.research,
-.cultures,
-.communities,
-.health {
+    margin-left: 5px;
     opacity: 50%;
+    position: 
 }
 
 .blog:hover,
@@ -292,14 +241,11 @@ p {
 /*footer*/
 
 footer {
-    border-style: dashed; /* to be removed*/
+    margin-top:20px;
     display: flex;
-    /*justify-content can work*/
 }
 
 footer ul {
-    border-style: dotted;
-    border-color: purple;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -309,6 +255,52 @@ footer ul {
 footer li {
     display: inline-block;
     font-size: 30px;
-    border-style: dotted;
     margin-left: 72px;
 } 
+
+ @media screen and (max-width: 1358px) {
+        nav {
+          flex-direction: column;
+          position: relative;
+          left:60%;
+        }
+    
+        nav a {
+            color: white;
+        }
+    
+        h1 {
+            font-size: 28px;
+            padding: 10px 30px 10px 60px;
+            width: 100%;
+            position: relative;
+        } 
+        
+        h2{
+            font-size: 24px; 
+        }
+
+        main {
+            flex-direction: column;
+        }
+
+        .myavatar h3 {
+            position: relative;
+            left: 50%;
+            top: 69%;
+            display: flex;
+            align-items: center;
+            background-color: rgb(3, 3, 3);
+        }
+        
+        footer ul {
+            flex-direction: column;
+            position: relative;
+            align-items: flex-start;
+            left:10%;
+        }
+
+            .apps {
+                height:100%;
+                width:10%;
+            }
