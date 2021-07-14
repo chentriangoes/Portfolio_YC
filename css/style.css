@@ -15,9 +15,9 @@ main {
     color: #ffffff;
 }
 
-h2 {
+#aboutme {
     width: 25%;
-    height: 180px;
+    height: 300px;
     color:rgb(2, 2, 2);
     font-size: 48px;
     text-align: right;
@@ -27,14 +27,25 @@ h2 {
 }
 
 h3 {
+    background-color: rgb(255, 0, 0, 0.2);
+    text-align: center;
+    font-size: 36px;
+    height: 60px;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    left: 50%;
+    top: 69%;
+    display: flex;
+    align-items: center;
+}
+
+h4 {
     background-color: rgb(255, 0, 0);
     text-align: center;
     font-size: 36px;
     height: 60px;
     padding: 0px 10px 0px 10px;
 }
-
-
 /*header*/
 
 nav a,
@@ -80,14 +91,6 @@ nav li {
     display: flex;
 }    
 
-.myavatar h3 {
-    position: relative;
-    left: 75%;
-    top: 69%;
-    display: flex;
-    align-items: center;
-}
-
 
 /* main */
 
@@ -106,6 +109,7 @@ p {
     width: 1000px;
 }
 
+
 .work {
     width: 100vw;
     height: 680px;
@@ -113,8 +117,16 @@ p {
     flex-wrap: wrap;
 }
 
-.work h2 {
+#work {
     height: 660px;
+    width: 25%;
+    color:rgb(2, 2, 2);
+    font-size: 48px;
+    text-align: right;
+    border-right: 5px solid red;
+    border-width: 6px;
+    padding-right: 12px;
+    }
 }
 
 .apps {
@@ -156,7 +168,7 @@ a.paper2 {
     color: white;
 }
 
-.touch h3 {
+.touch h4 {
     height: 80px;
     width: 340px;
     text-align: left;
@@ -187,10 +199,6 @@ a.paper2 {
     opacity: 50%;
 }
 
-.selfie {
-    position:
-}
-
 .touch:hover,
 .country:hover,
 .selfie:hover,
@@ -200,10 +208,10 @@ a.paper2 {
     cursor: pointer;
 }
 
-.country h3,
-.selfie h3,
-.watch h3,
-.exercise h3 {
+.country h4,
+.selfie h4,
+.watch h4,
+.exercise h4 {
     height: 80px;
     text-align: left;
     position: relative;
@@ -213,19 +221,19 @@ a.paper2 {
     padding: 12px;
 }
 
-.country h3 {
+.country h4 {
     width: 300px;
 }
 
-.selfie h3 {
-    width: 320px;
+.selfie h4 {
+    width: 280px;
 }
 
-.watch h3 {
-    width: 460px;
+.watch h4 {
+    width: 310px;
 }
 
-.exercise h3 {
+.exercise h4 {
     width: 310px;
 }
 
@@ -238,6 +246,17 @@ a.paper2 {
 }
 
 /*footer*/
+
+#contactme {
+    width: 25%;
+    height: 180px;
+    color:rgb(2, 2, 2);
+    font-size: 48px;
+    text-align: right;
+    border-right: 5px solid red;
+    border-width: 6px;
+    padding-right: 12px;
+}
 
 footer {
     margin-top:20px;
@@ -283,14 +302,14 @@ footer li {
             flex-direction: column;
         }
 
-        .myavatar h3 {
+        /*.myavatar h3 {
             position: relative;
             left: 50%;
             top: 69%;
             display: flex;
             align-items: center;
             background-color: rgb(3, 3, 3);
-        }
+        }*/
         
         footer ul {
             flex-direction: column;
