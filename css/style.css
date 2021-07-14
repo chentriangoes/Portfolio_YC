@@ -100,6 +100,14 @@ article {
     width:100vw;
 }
 
+.profileimg {
+    width: 12.5%;
+    height: 225px;
+    position: absolute;
+    left: 50px;
+    top: 550px;
+}
+
 p {
     color:rgb(2, 2, 2);
     font-size: 20px;
