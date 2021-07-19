@@ -11,8 +11,8 @@ body {
 
 /*header*/
 
-nav a,
-footer a {
+nav a
+/*footer a*/ {
     color: #050505;
 } 
 
@@ -28,13 +28,15 @@ header {
     max-height: 40%;
     position: absolute;
     top: 0px;
+    right: 0px;
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 36px;
+    color:wheat;
     background-color: rgb(2, 2, 2);
-    padding: 10px 30px 10px 60px;
-    width: 52%;
+    padding: 10px 30px 10px 20px;
+    width: 60%;
     position: relative;
     top: 150px;
 }
@@ -42,7 +44,7 @@ h1 {
 nav {
     font-size: 28px;
     position: relative;
-    right: 8%;
+    padding-right: 30px;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -51,6 +53,7 @@ nav {
 nav li {
     display: inline-block;
     margin-left: 10px;
+    padding-top:10px;
 } 
 
 .myavatar {
@@ -65,11 +68,11 @@ nav li {
 h3 {
     background-color: rgb(255, 0, 0, 0.2);
     text-align: center;
-    font-size: 36px;
+    font-size: 34px;
     height: 60px;
     padding: 0px 10px 0px 10px;
     position: relative;
-    left: 50%;
+    left: 38%;
     top: 69%;
     display: flex;
     align-items: center;
@@ -91,6 +94,7 @@ article {
 .aboutme {
     color:rgb(2, 2, 2);
     font-size: 48px;
+    margin-bottom: 20px;
 }
 
 
@@ -104,8 +108,8 @@ p {
 }
 
 .work {
-    margin-bottom: 12px;
     width:100vw;
+    margin-top: 20px;
 }
 
 #work {
@@ -113,6 +117,7 @@ p {
     color:rgb(2, 2, 2);
     font-size: 48px;
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .apps {
@@ -178,6 +183,7 @@ h4 {
     background-position: center;
     margin-left: 5px;
     opacity: 50%;
+    margin-bottom: 10px;
 }
 
 .touch:hover,
@@ -230,7 +236,7 @@ h4 {
 /*footer*/
 
 footer {
-    margin-top:300px;
+    margin-top:350px;
 }
 
 .contactme {
@@ -367,11 +373,16 @@ h1 {
     .contactme br {
         display: none;
     }
+    
     nav {
-        flex-direction: column;
+        font-size: 28px;
         position: relative;
-        left:60%;
-      }
+        left: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 200px;
+    }
     
     nav a {
           color: white;
