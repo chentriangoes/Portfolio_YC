@@ -23,7 +23,7 @@ header {
     position: relative;
 }
 
-img {
+.headimg {
     max-width: 22.5%;
     max-height: 40%;
     position: absolute;
@@ -239,16 +239,39 @@ footer {
     text-align: left;
 }
 
+.icon {
+    width: 100vw;
+    margin-top: 50px;
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+.icon img {
+    width:100px;
+    height: 100px;
+    margin-left: 75px;
+}
+
+.source {
+    text-align: right;
+    margin-top: 15px;
+    margin-right:15px;
+}
+
 /*footer ul {
     width: 100vw;
 }*/
 
-footer li {
+/*footer li {
     font-size: 30px;
     margin-left: 60px;
     display: block;
     
-} 
+}*/ 
+
+
 
 
 @media screen and (min-width: 768px) {
@@ -307,7 +330,9 @@ footer {
     padding-right: 12px;
 }
 
-footer ul {
+
+
+/*footer ul {
     width: 100vw;
     margin-top: 80px;
 }
@@ -316,7 +341,7 @@ footer li {
     display: inline-block;
     font-size: 30px;
     margin-left: 60px;
-} 
+}*/
 
 h1 {
     font-size: 38px;
@@ -327,7 +352,7 @@ h1 {
     top: 28px;
 }
 
-img {
+.headimg {
     max-width: 22.5%;
     max-height: 40%;
     position: absolute;
