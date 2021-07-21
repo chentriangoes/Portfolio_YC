@@ -107,6 +107,34 @@ p {
     width: 100vw;
 }
 
+.contribution {
+    width:100vw;
+    margin-top: 20px;
+}
+
+#contribution {
+    min-width: 25%;
+    color:rgb(2, 2, 2);
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.youtube span {
+    color: purple;
+    text-decoration: underline;
+}
+
+.youtube div {
+   margin-bottom: 30px;
+}
+
+iframe {
+    width: 100%;
+    margin-bottom: 20px;
+ }
+
+/*work*/
 .work {
     width:100vw;
     margin-top: 20px;
@@ -239,7 +267,7 @@ footer {
     margin-top:350px;
 }
 
-.contactme {
+#contactme {
     color:rgb(2, 2, 2);
     font-size: 48px;
     text-align: left;
@@ -309,6 +337,41 @@ article {
     padding-right: 12px;
 }
 
+.contribution {
+    display: flex;
+}
+
+#contribution {
+    height: 660px;
+    min-width: 25%;
+    color:rgb(2, 2, 2);
+    font-size: 48px;
+    text-align: right;
+    border-right: 5px solid red;
+    border-width: 6px;
+    padding-right: 12px;
+}
+
+.youtube {
+    display: inline-block;
+}
+
+.youtube div {
+    display: flex;
+    width: 100%;
+}
+
+.youtube p {
+    width: 50%;
+    margin-left: 20px;
+}
+
+iframe {
+    position:relative;
+    width: 40%;
+    left: 20px;
+ }
+
 .aboutme {
     min-width: 25%;
     height: 300px;
@@ -325,7 +388,7 @@ footer {
     display: flex;
 }
 
-.contactme {
+#contactme {
     min-width: 25%;
     height: 180px;
     color:rgb(2, 2, 2);
@@ -370,7 +433,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
     .aboutme br,
-    .contactme br {
+    #contactme br {
         display: none;
     }
     
