@@ -30,7 +30,7 @@ h1 {
 }
 
 header .avatar {
-    width: 100px; 
+    width: 120px; 
     height: 128px;
     position: absolute;
     top: 0px;
@@ -352,7 +352,7 @@ figcaption {
     }
 
     aside .avatar {
-        width:193px;
+        width:225px;
         height:257px;
         display:inline-block;
     }
